@@ -115,18 +115,32 @@ h1 {
 .pa {
   height: auto;
   background-color: gray;
+  padding: 25px;
+  border: 1px solid black;
 }
 
 
 
-#chicken, #beef, #sushi {
-  
+#chicken, #beef, #sushi { 
   float: right;
   width: 150px;
   height: 30px;
-  background-color: red;
   margin-bottom: 50px;
   padding: 3px;
+  border: 1px solid black;
+}
+
+#chicken{
+  background-color: rgb(210, 102, 102);
+}
+
+#beef{
+  background-color: brown;
+  color: white;
+}
+
+#sushi{
+  background-color: yellow;
 }
 
 .sub{
