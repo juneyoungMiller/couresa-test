@@ -2,6 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+
+body {
+  padding: 1.2em;
+  font-family:cursive;
+  font-size: 1.2em;
 }
 /* Simple Responsive Framework. */
 .row {
@@ -110,13 +117,14 @@
 
 h1 {
   text-align: center;
+  padding: 1.2em;
 }
 
 .pa {
   height: auto;
-  background-color: gray;
+  background-color: rgb(170, 170, 170);
   padding: 25px;
-  border: 1px solid black;
+  border: 3px solid black;
 }
 
 
@@ -124,18 +132,18 @@ h1 {
 #chicken, #beef, #sushi { 
   float: right;
   width: 150px;
-  height: 30px;
+  height: auto;
   margin-bottom: 50px;
   padding: 3px;
-  border: 1px solid black;
+  border: 3px solid black;
 }
 
 #chicken{
-  background-color: rgb(210, 102, 102);
+  background-color: rgb(216, 130, 130);
 }
 
 #beef{
-  background-color: brown;
+  background-color: rgb(213, 79, 79);
   color: white;
 }
 
